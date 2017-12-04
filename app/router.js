@@ -11,6 +11,7 @@ Router.map(function() {
   this.route('new-patients');
   this.route('about');
   this.route('treatment-philosophy');
+  this.route('services');
 });
 
 export default Router;
