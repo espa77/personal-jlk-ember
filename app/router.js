@@ -7,11 +7,10 @@ const Router = EmberRouter.extend({
 });
 
 Router.map(function() {
-  this.route('conditions-treated');
   this.route('new-patients');
   this.route('about');
-  this.route('treatment-philosophy');
-  this.route('services');
+  this.route('approach');
+  this.route('philosophy');
 });
 
 export default Router;
